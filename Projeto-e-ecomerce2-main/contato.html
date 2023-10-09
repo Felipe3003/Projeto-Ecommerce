@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <nav>
+           <div class="cabe"> 
+            <h3>Logo</h3>
+            <div class="conteudo">
+            <a class="links" href="carrinho.html">Carrinho</a>
+            <a class="links" href="contato.html">Contato</a>
+            <a class="links" href="contato.html">Produtos</a>
+            <a class="links" href="contato.html">Sobre</a>
+        </div>
+        </div>
+        </nav>
+    </header>
+    <br>    
+
+<div class="conteudo1">
+    <form id="formContato"> 
+
+        <label>Nome:</label>
+        <input id="nome" name="email" class="barrinha" placeholder="Digite seu nome"  type="text" required> <br>
+        <br>
+        
+
+        <label>Email:</label> 
+        <input id="email" name="email" class="barrinha"  placeholder="Digite seu melhor email" type="email" required><br>
+        <br>
+
+        <label>Senha:</label><br>
+        <div class="password-container">
+            <input type="password" class="password-input" id="senha" placeholder="Digite sua senha">
+            <span class="show-password-btn" onclick="mostrarSenha()">Mostrar</span>
+          </div><br>
+
+        <br><label>Mensagem:</label><br>
+        <textarea id="mensagem"  class="mensagem" placeholder="Digite uma mensagem para nós" name="mensagem" required></textarea><br>
+        <br>
+        <button type="submit" class="btn" >Enviar</button>
+
+        <script src="senha.js"></script>
+        <script src="js/contato.js"></script>
+    </form>
+</div>
+</body>
+</html>
